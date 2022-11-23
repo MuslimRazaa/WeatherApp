@@ -71,7 +71,7 @@ function Weather() {
             <h3 style={{ margin: "15px" }}>Humidity: </h3>
             {showText?.humidity ? (
               <span style={{ color: "#93e793" }}>
-                <p>{showText.humidity}°C</p>
+                <p>{showText.humidity}%</p>
               </span>
             ) : (
               "--"
@@ -79,7 +79,7 @@ function Weather() {
             <h3 style={{ margin: "15px" }}>Pressure: </h3>
             {showText?.pressure ? (
               <span style={{ color: "#93e793" }}>
-                <p>{showText.pressure}°C</p>
+                <p>{showText.pressure}mb</p>
               </span>
             ) : (
               "--"
